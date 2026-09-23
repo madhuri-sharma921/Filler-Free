@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Build folders
+build/
+**/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db

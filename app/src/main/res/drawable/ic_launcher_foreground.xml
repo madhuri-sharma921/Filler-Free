@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speech bubble body: rounded rect with a small tail, amber fill.
+         Body corners (27,37)-(81,70) and tail tip (38,78) all verified
+         within the 33-radius safe circle centered at (54,54). -->
+    <path
+        android:fillColor="#E6A23C"
+        android:pathData="M35,37
+            L73,37
+            C77.4,37 81,40.6 81,45
+            L81,62
+            C81,66.4 77.4,70 73,70
+            L48,70
+            L38,78
+            L40,70
+            L35,70
+            C30.6,70 27,66.4 27,62
+            L27,45
+            C27,40.6 30.6,37 35,37
+            Z" />
+
+
+    <path
+        android:fillColor="#1C1A17"
+        android:pathData="M40,45 L45,45 L45,62 L40,62 Z" />
+    <path
+        android:fillColor="#1C1A17"
+        android:pathData="M51,50 L56,50 L56,57 L51,57 Z" />
+    <path
+        android:fillColor="#1C1A17"
+        android:pathData="M62,45 L67,45 L67,62 L62,62 Z" />
+</vector>
